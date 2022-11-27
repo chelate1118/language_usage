@@ -4,5 +4,9 @@
     "editor.fontFamily": "Jetbrains Mono",
     "terminal.integrated.fontSize": 18,
     "workbench.colorTheme": "Default Dark+",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedExpression": "none"
+    }
 }
